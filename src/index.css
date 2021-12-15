@@ -125,21 +125,32 @@ table.table .avatar {
 }
 
 .modal-content {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .flexContainer {
-  display:flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+}
+
+#deleteEmployeeModal {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#deleteEmployeeModal .modal-dialog {
+    box-shadow: #00000099 3px 3px 17px;
 }
 
 .savedContainer {
-	display: flex;
-	flex-direction: column;
-	background: #dedede;
+    display: flex;
+    flex-direction: column;
+    background: #dedede;
     padding: 2em;
-	margin: 0;
-	width:250px;
+    margin: 0;
+    width: 250px;
 }
 
 .savedButton {
